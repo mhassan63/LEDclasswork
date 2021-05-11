@@ -5,8 +5,8 @@ pixels = neopixel.NeoPixel(board.D18, 20)
 
 #red
 for i in range (6):
-    pixles[i] = (10,0,0)
+    pixels[i] = (10,0,0)
 
 #blue
 for i in range (5,20):
-    pixles[i] = (0,0,252)
+    pixels[i] = (0,0,252)
